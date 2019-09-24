@@ -37,7 +37,7 @@ export default class Product extends Component {
               >
                 <img
                   src={process.env.PUBLIC_URL + "/images/image (4).png"}
-                  style={{ height: 50, width: 50 }}
+                  style={{ height: 50, width: 50, padding: 5 }}
                 />
               </Button>
               <Button
@@ -49,7 +49,7 @@ export default class Product extends Component {
               >
                 <img
                   src={process.env.PUBLIC_URL + "/images/image (4).png"}
-                  style={{ height: 50, width: 50 }}
+                  style={{ height: 50, width: 50, padding: 5 }}
                 />
               </Button>
               <Button
@@ -61,7 +61,7 @@ export default class Product extends Component {
               >
                 <img
                   src={process.env.PUBLIC_URL + "/images/image (4).png"}
-                  style={{ height: 50, width: 50 }}
+                  style={{ height: 50, width: 50, padding: 5  }}
                 />
               </Button>
               <Button
@@ -73,7 +73,7 @@ export default class Product extends Component {
               >
                 <img
                   src={process.env.PUBLIC_URL + "/images/image (4).png"}
-                  style={{ height: 50, width: 50 }}
+                  style={{ height: 50, width: 50, padding: 5  }}
                 />
               </Button>
             </Grid>

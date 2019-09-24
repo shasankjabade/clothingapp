@@ -23,7 +23,7 @@ export default class SingeProduct extends Component {
             <CardActionArea>
               <img
                 src={process.env.PUBLIC_URL + "/images/image (4).png"}
-                style={{ width: 168, height: 192 }}
+                style={{ width: 168, height: 192, padding: 10 }}
               ></img>
               <Loyalty style={{ top: 8, right: 8, position: "absolute" }} />
               <CardContent style={{ backgroundColor: "#F0F2F3" }}>

@@ -24,7 +24,8 @@ export default class Header extends Component {
             style={{ display: "inline-block" }}
             style={{ float: "left" }}
           >
-            <Lens style={{ color: "grey" }} />
+            <Lens style={{ color: "black"  }} />
+            <Lens style={{ color: "grey"  }} />
             <Lens style={{ color: "grey" }} />
             <Lens style={{ color: "grey" }} />
           </Box>
@@ -41,7 +42,7 @@ export default class Header extends Component {
               centered
               classes={{ indicator: { backgroundColor: "#0000BC" } }}
             >
-              <Tab label="Shirt" value={1}/>
+              <Tab label="Shirt" value={1} style={{color: "cyan"}}/>
               <Tab label="Pant" value={2} />
               <Tab label="Accessories" value={3} />
               <Tab label="About" value={4} />

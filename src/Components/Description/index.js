@@ -3,7 +3,7 @@ import React, { Component } from "react";
 /* UI Element Imports */
 
 import { Typography, Box, Divider, Button, Grid } from "@material-ui/core";
-import { Star, StarBorder } from "@material-ui/icons";
+import { Star, StarBorder, CenterFocusStrong } from "@material-ui/icons";
 /* Component Imports */
 
 import ColorPicker from "../ColorPicker";
@@ -105,7 +105,7 @@ export default class Description extends Component {
             </Button>
           </Grid>
         </Grid>
-        <Box textAlign="left">
+        <Box textAlign="left" style={{fontSize: 12, textAlign: "center", padding:5}}>
           International shipping restrictions may apply !
         </Box>
       </Typography>
